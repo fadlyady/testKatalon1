@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+cekresipertama,Chrome 87.0.4280.88,,,2021-01-04 15:48:58,2021-01-04 15:49:15,16.377s,PASSED
+,,,,,,,
+Test Cases/Cek Resi/cekresi1,Chrome 87.0.4280.88,,,2021-01-04 15:48:59,2021-01-04 15:49:10,10.967s,PASSED
+"openBrowser("""")",Chrome 87.0.4280.88,,,2021-01-04 15:49:00,2021-01-04 15:49:04,4.261s,PASSED
+"navigateToUrl(""https://www.sicepat.com/"")",Chrome 87.0.4280.88,,,2021-01-04 15:49:04,2021-01-04 15:49:06,1.770s,PASSED
+"verifyElementPresent(findTestObject(""Home Obj/main content""), 10)",Chrome 87.0.4280.88,,,2021-01-04 15:49:06,2021-01-04 15:49:06,0.553s,PASSED
+"click(findTestObject(""Home Obj/btn_cekresi""))",Chrome 87.0.4280.88,,,2021-01-04 15:49:06,2021-01-04 15:49:07,0.504s,PASSED
+"verifyElementVisible(findTestObject(""Menu Cek Resi/container resi""))",Chrome 87.0.4280.88,,,2021-01-04 15:49:07,2021-01-04 15:49:08,1.273s,PASSED
+"setText(findTestObject(""Menu Cek Resi/field_resi""), ""00435723687"")",Chrome 87.0.4280.88,,,2021-01-04 15:49:08,2021-01-04 15:49:09,0.974s,PASSED
+"click(findTestObject(""Menu Cek Resi/btn_lacak""))",Chrome 87.0.4280.88,,,2021-01-04 15:49:09,2021-01-04 15:49:10,0.511s,PASSED
+"verifyElementPresent(findTestObject(""Menu Cek Resi/alert_gagal""), 10)",Chrome 87.0.4280.88,,,2021-01-04 15:49:10,2021-01-04 15:49:10,0.677s,PASSED
+,,,,,,,
+Test Cases/Cek Resi/cekresi2,Chrome 87.0.4280.88,,,2021-01-04 15:49:10,2021-01-04 15:49:13,2.292s,PASSED
+"openBrowser("""")",Chrome 87.0.4280.88,,,2021-01-04 15:49:11,2021-01-04 15:49:11,0.003s,NOT_RUN
+"navigateToUrl(""https://www.sicepat.com/"")",Chrome 87.0.4280.88,,,2021-01-04 15:49:11,2021-01-04 15:49:11,0.001s,NOT_RUN
+"verifyElementPresent(findTestObject(""Home Obj/main content""), 30)",Chrome 87.0.4280.88,,,2021-01-04 15:49:11,2021-01-04 15:49:11,0.001s,NOT_RUN
+"click(findTestObject(""Home Obj/btn_cekresi""))",Chrome 87.0.4280.88,,,2021-01-04 15:49:11,2021-01-04 15:49:11,0.011s,NOT_RUN
+"verifyElementVisible(findTestObject(""Menu Cek Resi/container resi""))",Chrome 87.0.4280.88,,,2021-01-04 15:49:11,2021-01-04 15:49:11,0.002s,NOT_RUN
+"setText(findTestObject(""Menu Cek Resi/field_resi""), ""00435723687"")",Chrome 87.0.4280.88,,,2021-01-04 15:49:11,2021-01-04 15:49:11,0.002s,NOT_RUN
+"click(findTestObject(""Menu Cek Resi/btn_lacak""))",Chrome 87.0.4280.88,,,2021-01-04 15:49:11,2021-01-04 15:49:11,0.003s,NOT_RUN
+"verifyElementPresent(findTestObject(""Menu Cek Resi/alert_gagal""), 30)",Chrome 87.0.4280.88,,,2021-01-04 15:49:11,2021-01-04 15:49:11,0.004s,NOT_RUN
+"click(findTestObject(""Menu Cek Resi/tambah_resi""))",Chrome 87.0.4280.88,,,2021-01-04 15:49:11,2021-01-04 15:49:11,0.429s,PASSED
+"verifyElementPresent(findTestObject(""Menu Cek Resi/btn_deleteresi""), 10)",Chrome 87.0.4280.88,,,2021-01-04 15:49:11,2021-01-04 15:49:12,0.486s,PASSED
+"click(findTestObject(""Menu Cek Resi/btn_deleteresi""))",Chrome 87.0.4280.88,,,2021-01-04 15:49:12,2021-01-04 15:49:12,0.388s,PASSED
+"verifyElementNotPresent(findTestObject(""Menu Cek Resi/btn_deleteresi""), 10)",Chrome 87.0.4280.88,,,2021-01-04 15:49:12,2021-01-04 15:49:13,0.547s,PASSED
+,,,,,,,
+Test Cases/Cek Resi/cekresi3,Chrome 87.0.4280.88,,,2021-01-04 15:49:13,2021-01-04 15:49:15,2.121s,PASSED
+"openBrowser("""")",Chrome 87.0.4280.88,,,2021-01-04 15:49:13,2021-01-04 15:49:13,0.001s,NOT_RUN
+"navigateToUrl(""https://www.sicepat.com/"")",Chrome 87.0.4280.88,,,2021-01-04 15:49:13,2021-01-04 15:49:13,0.001s,NOT_RUN
+"verifyElementPresent(findTestObject(""Home Obj/main content""), 10)",Chrome 87.0.4280.88,,,2021-01-04 15:49:13,2021-01-04 15:49:13,0.002s,NOT_RUN
+"click(findTestObject(""Home Obj/btn_cekresi""))",Chrome 87.0.4280.88,,,2021-01-04 15:49:13,2021-01-04 15:49:13,0.002s,NOT_RUN
+"verifyElementVisible(findTestObject(""Menu Cek Resi/container resi""))",Chrome 87.0.4280.88,,,2021-01-04 15:49:13,2021-01-04 15:49:13,0.002s,NOT_RUN
+"setText(findTestObject(""Menu Cek Resi/field_resi""), ""000435723687"")",Chrome 87.0.4280.88,,,2021-01-04 15:49:13,2021-01-04 15:49:14,0.711s,PASSED
+"click(findTestObject(""Menu Cek Resi/btn_lacak""))",Chrome 87.0.4280.88,,,2021-01-04 15:49:14,2021-01-04 15:49:14,0.372s,PASSED
+"verifyElementNotPresent(findTestObject(""Menu Cek Resi/alert_gagal""), 10)",Chrome 87.0.4280.88,,,2021-01-04 15:49:14,2021-01-04 15:49:15,0.683s,PASSED

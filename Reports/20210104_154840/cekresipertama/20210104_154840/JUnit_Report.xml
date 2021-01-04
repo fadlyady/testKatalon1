@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="cekresipertama" time="17.472" tests="3" failures="0" skips="0" errors="0">
+   <testsuite name="cekresipertama" tests="3" failures="0" errors="0" time="17.472" skips="0" timestamp="2021-01-04 15:48:58" hostname="Clodeo - LAPTOP-PH9D1S4Q" id="Test Suites/cekresipertama">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Clodeo\\git\\testKatalon1\\Reports\\20210104_154840\\cekresipertama\\20210104_154840"/>
+         <property name="logFiles" value="C:\\Users\\Clodeo\\git\\testKatalon1\\Reports\\20210104_154840\\cekresipertama\\20210104_154840\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Clodeo - LAPTOP-PH9D1S4Q"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.8.2.208"/>
+         <property name="browser" value="Chrome 87.0.4280.88"/>
+         <property name="hostAddress" value="192.168.193.2"/>
+         <property name="sessionId" value="50d16b6d407e4fcb3259793cfa961143"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Cek Resi/cekresi1" time="10.967" classname="Test Cases/Cek Resi/cekresi1" status="PASSED">
+         <system-out><![CDATA[2021-01-04 15:48:59 - [TEST_CASE][PASSED] - Test Cases/Cek Resi/cekresi1: Test Cases/Cek Resi/cekresi1
+
+2021-01-04 15:49:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-01-04 15:49:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-04 15:49:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-04 15:49:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-04 15:49:04 - [TEST_STEP][PASSED] - navigateToUrl("https://www.sicepat.com/"): Navigate to 'https://www.sicepat.com/' successfully
+
+2021-01-04 15:49:06 - [MESSAGE][PASSED] - Navigate to 'https://www.sicepat.com/' successfully
+
+2021-01-04 15:49:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Home Obj/main content"), 10): Object 'Object Repository/Home Obj/main content' is present
+
+2021-01-04 15:49:06 - [MESSAGE][PASSED] - Object 'Object Repository/Home Obj/main content' is present
+
+2021-01-04 15:49:06 - [TEST_STEP][PASSED] - click(findTestObject("Home Obj/btn_cekresi")): Object: 'Object Repository/Home Obj/btn_cekresi' is clicked on
+
+2021-01-04 15:49:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Obj/btn_cekresi' is clicked on
+
+2021-01-04 15:49:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Menu Cek Resi/container resi")): Object 'Object Repository/Menu Cek Resi/container resi' is visible
+
+2021-01-04 15:49:08 - [MESSAGE][PASSED] - Object 'Object Repository/Menu Cek Resi/container resi' is visible
+
+2021-01-04 15:49:08 - [TEST_STEP][PASSED] - setText(findTestObject("Menu Cek Resi/field_resi"), "00435723687"): Text '00435723687' is set on object 'Object Repository/Menu Cek Resi/field_resi'
+
+2021-01-04 15:49:09 - [MESSAGE][PASSED] - Text '00435723687' is set on object 'Object Repository/Menu Cek Resi/field_resi'
+
+2021-01-04 15:49:09 - [TEST_STEP][PASSED] - click(findTestObject("Menu Cek Resi/btn_lacak")): Object: 'Object Repository/Menu Cek Resi/btn_lacak' is clicked on
+
+2021-01-04 15:49:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Cek Resi/btn_lacak' is clicked on
+
+2021-01-04 15:49:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Menu Cek Resi/alert_gagal"), 10): Object 'Object Repository/Menu Cek Resi/alert_gagal' is present
+
+2021-01-04 15:49:10 - [MESSAGE][PASSED] - Object 'Object Repository/Menu Cek Resi/alert_gagal' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Cek Resi/cekresi2" time="2.292" classname="Test Cases/Cek Resi/cekresi2" status="PASSED">
+         <system-out><![CDATA[2021-01-04 15:49:10 - [TEST_CASE][PASSED] - Test Cases/Cek Resi/cekresi2: Test Cases/Cek Resi/cekresi2
+
+2021-01-04 15:49:11 - [TEST_STEP][NOT_RUN] - openBrowser(""): NOT_RUN: openBrowser("")
+
+2021-01-04 15:49:11 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser("")
+
+2021-01-04 15:49:11 - [TEST_STEP][NOT_RUN] - navigateToUrl("https://www.sicepat.com/"): NOT_RUN: navigateToUrl("https://www.sicepat.com/")
+
+2021-01-04 15:49:11 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("https://www.sicepat.com/")
+
+2021-01-04 15:49:11 - [TEST_STEP][NOT_RUN] - verifyElementPresent(findTestObject("Home Obj/main content"), 30): NOT_RUN: verifyElementPresent(findTestObject("Home Obj/main content"), 30)
+
+2021-01-04 15:49:11 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent(findTestObject("Home Obj/main content"), 30)
+
+2021-01-04 15:49:11 - [TEST_STEP][NOT_RUN] - click(findTestObject("Home Obj/btn_cekresi")): NOT_RUN: click(findTestObject("Home Obj/btn_cekresi"))
+
+2021-01-04 15:49:11 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Home Obj/btn_cekresi"))
+
+2021-01-04 15:49:11 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Menu Cek Resi/container resi")): NOT_RUN: verifyElementVisible(findTestObject("Menu Cek Resi/container resi"))
+
+2021-01-04 15:49:11 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Menu Cek Resi/container resi"))
+
+2021-01-04 15:49:11 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Menu Cek Resi/field_resi"), "00435723687"): NOT_RUN: setText(findTestObject("Menu Cek Resi/field_resi"), "00435723687")
+
+2021-01-04 15:49:11 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Menu Cek Resi/field_resi"), "00435723687")
+
+2021-01-04 15:49:11 - [TEST_STEP][NOT_RUN] - click(findTestObject("Menu Cek Resi/btn_lacak")): NOT_RUN: click(findTestObject("Menu Cek Resi/btn_lacak"))
+
+2021-01-04 15:49:11 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Menu Cek Resi/btn_lacak"))
+
+2021-01-04 15:49:11 - [TEST_STEP][NOT_RUN] - verifyElementPresent(findTestObject("Menu Cek Resi/alert_gagal"), 30): NOT_RUN: verifyElementPresent(findTestObject("Menu Cek Resi/alert_gagal"), 30)
+
+2021-01-04 15:49:11 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent(findTestObject("Menu Cek Resi/alert_gagal"), 30)
+
+2021-01-04 15:49:11 - [TEST_STEP][PASSED] - click(findTestObject("Menu Cek Resi/tambah_resi")): Object: 'Object Repository/Menu Cek Resi/tambah_resi' is clicked on
+
+2021-01-04 15:49:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Cek Resi/tambah_resi' is clicked on
+
+2021-01-04 15:49:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Menu Cek Resi/btn_deleteresi"), 10): Object 'Object Repository/Menu Cek Resi/btn_deleteresi' is present
+
+2021-01-04 15:49:12 - [MESSAGE][PASSED] - Object 'Object Repository/Menu Cek Resi/btn_deleteresi' is present
+
+2021-01-04 15:49:12 - [TEST_STEP][PASSED] - click(findTestObject("Menu Cek Resi/btn_deleteresi")): Object: 'Object Repository/Menu Cek Resi/btn_deleteresi' is clicked on
+
+2021-01-04 15:49:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Cek Resi/btn_deleteresi' is clicked on
+
+2021-01-04 15:49:12 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Menu Cek Resi/btn_deleteresi"), 10): Web element with id: 'Object Repository/Menu Cek Resi/btn_deleteresi' located by 'By.xpath: //div[@id='check-awb-field']//div[@class='input-group-append']' is not present after '10' second(s)
+
+2021-01-04 15:49:13 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Menu Cek Resi/btn_deleteresi' located by 'By.xpath: //div[@id='check-awb-field']//div[@class='input-group-append']' is not present after '10' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Cek Resi/cekresi3" time="2.121" classname="Test Cases/Cek Resi/cekresi3" status="PASSED">
+         <system-out><![CDATA[2021-01-04 15:49:13 - [TEST_CASE][PASSED] - Test Cases/Cek Resi/cekresi3: Test Cases/Cek Resi/cekresi3
+
+2021-01-04 15:49:13 - [TEST_STEP][NOT_RUN] - openBrowser(""): NOT_RUN: openBrowser("")
+
+2021-01-04 15:49:13 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser("")
+
+2021-01-04 15:49:13 - [TEST_STEP][NOT_RUN] - navigateToUrl("https://www.sicepat.com/"): NOT_RUN: navigateToUrl("https://www.sicepat.com/")
+
+2021-01-04 15:49:13 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("https://www.sicepat.com/")
+
+2021-01-04 15:49:13 - [TEST_STEP][NOT_RUN] - verifyElementPresent(findTestObject("Home Obj/main content"), 10): NOT_RUN: verifyElementPresent(findTestObject("Home Obj/main content"), 10)
+
+2021-01-04 15:49:13 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent(findTestObject("Home Obj/main content"), 10)
+
+2021-01-04 15:49:13 - [TEST_STEP][NOT_RUN] - click(findTestObject("Home Obj/btn_cekresi")): NOT_RUN: click(findTestObject("Home Obj/btn_cekresi"))
+
+2021-01-04 15:49:13 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Home Obj/btn_cekresi"))
+
+2021-01-04 15:49:13 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Menu Cek Resi/container resi")): NOT_RUN: verifyElementVisible(findTestObject("Menu Cek Resi/container resi"))
+
+2021-01-04 15:49:13 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Menu Cek Resi/container resi"))
+
+2021-01-04 15:49:13 - [TEST_STEP][PASSED] - setText(findTestObject("Menu Cek Resi/field_resi"), "000435723687"): Text '000435723687' is set on object 'Object Repository/Menu Cek Resi/field_resi'
+
+2021-01-04 15:49:14 - [MESSAGE][PASSED] - Text '000435723687' is set on object 'Object Repository/Menu Cek Resi/field_resi'
+
+2021-01-04 15:49:14 - [TEST_STEP][PASSED] - click(findTestObject("Menu Cek Resi/btn_lacak")): Object: 'Object Repository/Menu Cek Resi/btn_lacak' is clicked on
+
+2021-01-04 15:49:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Cek Resi/btn_lacak' is clicked on
+
+2021-01-04 15:49:14 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Menu Cek Resi/alert_gagal"), 10): Web element with id: 'Object Repository/Menu Cek Resi/alert_gagal' located by 'By.xpath: //div[@role="alert"]' is not present after '10' second(s)
+
+2021-01-04 15:49:15 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Menu Cek Resi/alert_gagal' located by 'By.xpath: //div[@role="alert"]' is not present after '10' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-01-04 15:48:58 - [TEST_SUITE][PASSED] - cekresipertama: Test Cases/Cek Resi/cekresi3]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
